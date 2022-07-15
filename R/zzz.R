@@ -1,4 +1,5 @@
 .onLoad <- function(libname, pkgname) {
+  cat("httr loaded sucesfully")
   op <- options()
   op.dplyr <- list(
     httr_oob_default = FALSE,
